@@ -1,0 +1,125 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #27272a;
+
+  .main-header {
+    width: 100%;
+    padding: 2rem 0;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+
+      .img-container {
+        background-color: white;
+        padding: 4rem 1rem;
+        margin-bottom: 0.8rem;
+      }
+
+      .top-header {
+        background-color: white;
+        margin-bottom: 0.4rem;
+        width: 60%;
+        text-align: center;
+      }
+
+      .subHeader {
+        background-color: white;
+        width: 60%;
+        text-align: center;
+      }
+    }
+  }
+
+  .main-articles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .mainContainer {
+      width: 100%;
+      padding: 0 0.8rem;
+
+      .topArticle {
+        background-color: white;
+        padding: 4rem 0;
+      }
+
+      .boxes {
+        margin: 2rem 0;
+
+        .row {
+          display: flex;
+          .content {
+            margin: 0 0.1rem;
+            margin-bottom: 0.2rem;
+            background-color: white;
+            padding: 2rem 0;
+            width: 50%;
+          }
+          .img {
+            margin-left: 0.1rem;
+            margin-bottom: 0.2rem;
+            background-color: white;
+            padding: 2rem 0;
+            width: 50%;
+          }
+        }
+      }
+
+      .btmArticle {
+        background-color: white;
+        padding: 4rem 0;
+      }
+    }
+  }
+
+  .weirdBtmStuff {
+    width: 100%;
+
+    .myWrapper {
+      display: flex;
+      flex-direction: column;
+      .btn {
+        width: fit-content;
+        background-color: white;
+        margin: 1rem auto;
+        text-align: center;
+        border-radius: 12px;
+        padding: 0.5rem 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+
+      .socialIcons {
+        background-color: white;
+        margin: 1rem 0 1rem auto;
+        display: flex;
+        justify-content: center;
+        padding: 0.2rem 4rem;
+      }
+
+      .cpyright {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        width: fit-content;
+        margin: 0.1rem auto;
+        padding: 0.2rem 3rem;
+      }
+    }
+  }
+}

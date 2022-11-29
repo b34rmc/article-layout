@@ -1,0 +1,48 @@
+.nav-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #2563eb;
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .top-logo {
+      background-color: white;
+      margin: 1.5rem 0 3rem;
+      padding: 2rem;
+      border: 2px solid black;
+    }
+
+    .btnWrapper {
+      margin-bottom: 3rem;
+
+      .btn {
+        background-color: white;
+        border: 2px solid black;
+        margin: 0.1rem 0.2rem;
+        padding: 0.4rem 1.6rem;
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .btmLogo {
+      background-color: white;
+      border: 2px solid black;
+      padding: 2rem;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .space-filler {
+    padding: 100% 0;
+  }
+}
